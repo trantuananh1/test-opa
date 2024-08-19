@@ -15,7 +15,7 @@ cache_rebuild {
       "relationships": data.relationships,
       "resource_types": data.resource_types,
   }
-	permit_rebac.update_cache(__rebac_data)
+	#permit_rebac.update_cache(__rebac_data)
 }
 rebac_roles_result := permit_rebac.roles(input)
 
