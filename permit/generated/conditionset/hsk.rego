@@ -10,4 +10,4 @@ userset_hsk {
 	userset_aaa_any_of_0
 }
 
-default userset_hsk_any_of_0 = false
+default userset_hsk_any_of_0 = true
