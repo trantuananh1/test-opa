@@ -1,6 +1,6 @@
-package permit.authorized_users
+package vauthz.authorized_users
 
-import data.permit.root.debugger_activated
+import data.vauthz.root.debugger_activated
 import future.keywords.in
 
 format_rbac_assignment(user, role) := {
@@ -19,7 +19,7 @@ format_rebac_assignment(user, root_grant) := {
 
 default linked_users := {}
 
-linked_users := permit_rebac.linked_users(input.resource)
+linked_users := vauthz_rebac.linked_users(input.resource)
 
 
 allowing_action_roles_map[resource_type] := result {

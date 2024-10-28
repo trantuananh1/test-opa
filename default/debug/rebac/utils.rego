@@ -1,7 +1,7 @@
-package permit.debug.rebac
+package vauthz.debug.rebac
 
-import data.permit.debug.utils as debug_utils
-import data.permit.rebac
+import data.vauthz.debug.utils as debug_utils
+import data.vauthz.rebac
 
 activated := rebac.activated
 

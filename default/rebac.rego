@@ -1,6 +1,6 @@
-package permit.rebac
+package vauthz.rebac
 
-import data.permit.rbac
+import data.vauthz.rbac
 import future.keywords.in
 
 
@@ -15,9 +15,9 @@ cache_rebuild {
       "relationships": data.relationships,
       "resource_types": data.resource_types,
   }
-	permit_rebac.update_cache(__rebac_data)
+	vauthz_rebac.update_cache(__rebac_data)
 }
-rebac_roles_result := permit_rebac.roles(input)
+rebac_roles_result := vauthz_rebac.roles(input)
 
 
 rebac_roles := rebac_roles_result.roles
@@ -34,13 +34,13 @@ _default_user_obj := result {
             "attributes":{
                 "key":input.user.key,
             },
-            "roleAssignments": {}
+            "role_assignments": {}
         }
     }
 }
 
 scoped_users_obj := result {
-	roles_path = sprintf("/%s/roleAssignments/%s", [input.user.key, input.resource.tenant])
+	roles_path = sprintf("/%s/role_assignments/%s", [input.user.key, input.resource.tenant])
 	result := json.patch(_default_user_obj, [{"op": "add", "path": roles_path, "value": rebac_roles}])
 }
 

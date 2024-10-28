@@ -1,9 +1,9 @@
-package permit.abac
+package vauthz.abac
 
 import future.keywords.in
 
-import data.permit.generated.conditionset
-import data.permit.utils.abac as utils
+import data.vauthz.generated.conditionset
+import data.vauthz.utils.abac as utils
 
 default allow := false
 

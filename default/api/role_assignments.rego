@@ -1,4 +1,4 @@
-package permit.api.role_assignments
+package vauthz.api.role_assignments
 
 import future.keywords.in
 

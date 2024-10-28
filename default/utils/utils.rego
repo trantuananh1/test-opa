@@ -1,4 +1,4 @@
-package permit.utils
+package vauthz.utils
 
 import future.keywords.in
 

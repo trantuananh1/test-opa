@@ -1,7 +1,7 @@
-package permit.abac_user_permissions
+package vauthz.abac_user_permissions
 
-import data.permit.abac
-import data.permit.generated.abac.utils
+import data.vauthz.abac
+import data.vauthz.generated.abac.utils
 
 import future.keywords.in
 

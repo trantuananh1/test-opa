@@ -1,6 +1,6 @@
-package permit.bulk
+package vauthz.bulk
 
-import data.permit.root
+import data.vauthz.root
 
 default allow := []
 

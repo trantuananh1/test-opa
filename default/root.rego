@@ -1,8 +1,8 @@
-package permit.root
+package vauthz.root
 
-import data.permit.custom
-import data.permit.debug
-import data.permit.policies
+import data.vauthz.custom
+import data.vauthz.debug
+import data.vauthz.policies
 
 default allow := false
 

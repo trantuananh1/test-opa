@@ -1,4 +1,4 @@
-package permit.rbac
+package vauthz.rbac
 
 import future.keywords
 
@@ -25,7 +25,7 @@ matching_grants[grant] {
 	# Find grants for the user.
 	some grant in grants
 
-	# Check if the grant permits the action.
+	# Check if the grant vauthzs the action.
 	input_query.action == grant
 }
 
@@ -43,7 +43,7 @@ tenant := tenant_key {
 #}
 
 user_roles[role_key] {
-	some role_key in data.users[input_query.user.key].roleAssignments[tenant]
+	some role_key in data.users[input_query.user.key].role_assignments[tenant]
 }
 
 default roles_resource := "__tenant"

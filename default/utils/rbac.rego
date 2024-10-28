@@ -1,14 +1,14 @@
-package permit.utils.rbac
+package vauthz.utils.rbac
 
-import data.permit.utils
+import data.vauthz.utils
 import future.keywords.in
 
 user_roles[roleKey] {
-	some roleKey in data.users[input.user.key].roleAssignments[input.resource.tenant]
+	some roleKey in data.users[input.user.key].role_assignments[input.resource.tenant]
 }
 
 user_tenants[tenant] {
-	some tenant in utils.object_keys(data.users[input.user.key].roleAssignments)
+	some tenant in utils.object_keys(data.users[input.user.key].role_assignments)
 }
 
 default __user_in_tenant = false

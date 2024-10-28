@@ -1,7 +1,7 @@
-package permit.debug.abac
+package vauthz.debug.abac
 
-import data.permit.abac
-import data.permit.conditionset
+import data.vauthz.abac
+import data.vauthz.conditionset
 import future.keywords.in
 
 default details := null

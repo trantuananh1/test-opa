@@ -1,7 +1,7 @@
-package permit.user_permissions
+package vauthz.user_permissions
 
 
-import data.permit.abac_user_permissions
+import data.vauthz.abac_user_permissions
 
 
 import future.keywords.in
@@ -160,7 +160,7 @@ remove_built_in_roles(roles) := filtered_roles {
 default __rebac_roles := {}
 
 
-__rebac_roles := permit_rebac.all_roles(input)
+__rebac_roles := vauthz_rebac.all_roles(input)
 
 
 default permissions := {}

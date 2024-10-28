@@ -1,8 +1,8 @@
-package permit.policies
+package vauthz.policies
 
-import data.permit.abac
-import data.permit.rbac
-import data.permit.rebac
+import data.vauthz.abac
+import data.vauthz.rbac
+import data.vauthz.rebac
 
 default allow := false
 

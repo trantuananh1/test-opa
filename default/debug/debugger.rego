@@ -1,15 +1,15 @@
-package permit.debug
+package vauthz.debug
 
 import future.keywords.in
 
-import data.permit.custom
-import data.permit.debug.abac
-import data.permit.debug.rbac
-import data.permit.debug.rebac
-import data.permit.policies
-import data.permit.root
-import data.permit.utils
-import data.permit.utils.abac as abac_utils
+import data.vauthz.custom
+import data.vauthz.debug.abac
+import data.vauthz.debug.rbac
+import data.vauthz.debug.rebac
+import data.vauthz.policies
+import data.vauthz.root
+import data.vauthz.utils
+import data.vauthz.utils.abac as abac_utils
 
 default __debug_tenant = null
 

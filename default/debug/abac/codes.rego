@@ -1,9 +1,9 @@
-package permit.debug.abac
+package vauthz.debug.abac
 
 import future.keywords.in
 
-import data.permit.debug.utils as debug_utils
-import data.permit.utils
+import data.vauthz.debug.utils as debug_utils
+import data.vauthz.utils
 
 # please note !
 # this file uses parameters from different files with the same package name,
@@ -55,7 +55,7 @@ codes(code) = result {
 		{
 			"allow": allow,
 			"code": code,
-			"support_link": sprintf("https://docs.permit.io/errors/%s", [code]),
+			"support_link": sprintf("https://docs.vauthz.io/errors/%s", [code]),
 		},
 		__codes(code),
 	)

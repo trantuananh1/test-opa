@@ -1,6 +1,6 @@
-package permit.any_tenant
+package vauthz.any_tenant
 
-import data.permit.root
+import data.vauthz.root
 import future.keywords.in
 
 default is_synced_user := false
@@ -47,7 +47,7 @@ allowed_tenants[allowed_tenant] {
 	using_optimized_policy
 	some tenant_key
 	tenant := _associated_tenants[tenant_key]
-	some role in data.users[input.user.key].roleAssignments[tenant_key]
+	some role in data.users[input.user.key].role_assignments[tenant_key]
 	input.action in data.role_permissions.__tenant[role].grants[input.resource.type]
 
 	result := {

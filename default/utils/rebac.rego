@@ -1,4 +1,4 @@
-package permit.utils.rebac
+package vauthz.utils.rebac
 
 import future.keywords.in
 
