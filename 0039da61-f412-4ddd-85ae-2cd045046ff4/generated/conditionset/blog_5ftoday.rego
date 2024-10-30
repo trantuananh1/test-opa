@@ -11,7 +11,7 @@ resourceset_blog_5ftoday_all_of {
 }
 default resourceset_blog_5ftoday_all_of_all_of_0 = false
 resourceset_blog_5ftoday_all_of_all_of_0 {
-    attributes.resource.createDate == "today"    
+    attributes.resource.createdDate == "today"    
 
 }
 
