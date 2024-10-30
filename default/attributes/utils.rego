@@ -130,9 +130,9 @@ __role_attributes = object.union_n([
 	__stored_role_attributes,
 ])
 
-__context_attributes = object.union(
+__context_attributes = object.union_n([
 	__input_context_attributes,
-)
+])
 
 attributes = {
 	"user": __user_attributes,
