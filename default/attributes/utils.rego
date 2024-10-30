@@ -113,28 +113,24 @@ __input_context_attributes = input.context
 
 __user_attributes = object.union_n([
 	__generated_user_attributes, __stored_user_attributes,
-	__custom_user_attributes,
 	__input_user_attributes,
 ])
 
 __resource_attributes = object.union_n([
 	__generated_resource_attributes, __stored_resource_attributes,
-	__custom_resource_attributes,
 	__input_resource_attributes,
 ])
 
 __tenant_attributes = object.union_n([
-	__stored_tenant_attributes, __custom_tenant_attributes,
+	__stored_tenant_attributes,
 	__input_tenant_attributes,
 ])
 
 __role_attributes = object.union_n([
 	__stored_role_attributes,
-	__custom_role_attributes,
 ])
 
 __context_attributes = object.union(
-	__custom_context_attributes,
 	__input_context_attributes,
 )
 
