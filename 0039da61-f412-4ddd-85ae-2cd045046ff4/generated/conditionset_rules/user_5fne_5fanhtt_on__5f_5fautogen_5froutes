@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default user_5f5fne_5f5fanhtt_5fon_5f_5f5f_5f5fautogen_5f5froutes = false
+user_5f5fne_5f5fanhtt_5fon_5f_5f5f_5f5fautogen_5f5froutes {
+  conditionset.userset_user_5fne_5fanhtt
+  conditionset.resourceset__5f_5fautogen_5froutes
+  input.action in condition_set_permissions.user_ne_anhtt.__autogen_routes[input.resource.type]
+}
+
