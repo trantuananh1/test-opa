@@ -5,10 +5,10 @@ import future.keywords.in
 import data.vauthz.generated.abac.utils.attributes
 import data.vauthz.generated.abac.utils.condition_set_permissions
 import data.vauthz.generated.conditionset
-default user_5f5fne_5f5fanhtt_5fon_5f_5f5f_5f5fautogen_5f5fpost = false
-user_5f5fne_5f5fanhtt_5fon_5f_5f5f_5f5fautogen_5f5fpost {
-  conditionset.userset_user_5fne_5fanhtt
+default _5f5f_5f5fautogen_5f5ftest_5fon_5f_5f5f_5f5fautogen_5f5fpost = false
+_5f5f_5f5fautogen_5f5ftest_5fon_5f_5f5f_5f5fautogen_5f5fpost {
+  conditionset.userset__5f_5fautogen_5ftest
   conditionset.resourceset__5f_5fautogen_5fpost
-  input.action in condition_set_permissions.user_ne_anhtt.__autogen_post[input.resource.type]
+  input.action in condition_set_permissions.__autogen_test.__autogen_post[input.resource.type]
 }
 
