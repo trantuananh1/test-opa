@@ -67,6 +67,12 @@ object_keys(obj) := result {
 default activated := false
 
 activated {
-	some key, value in data.relationships
-	true
+    # Get user from role_assignments
+    some user_key, user_roles in data.role_assignments
+    
+    # Get tenant/resource from user roles
+    some resource_key, role_array in user_roles
+    
+    # Check if the resource key doesn't start with "__tenant"
+    not startswith(resource_key, "__tenant")
 }
