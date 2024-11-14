@@ -12,6 +12,7 @@ resourceset_own_5fblogs_all_of {
 default resourceset_own_5fblogs_all_of_all_of_0 = false
 resourceset_own_5fblogs_all_of_all_of_0 {
     attributes.resource.author == attributes.user.key    
+    attributes.resource.author != attributes.resource.author    
 
 }
 
