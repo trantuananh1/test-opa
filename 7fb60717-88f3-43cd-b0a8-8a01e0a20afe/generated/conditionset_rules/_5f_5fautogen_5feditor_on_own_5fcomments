@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default _5f5f_5f5fautogen_5f5feditor_5fon_5fown_5f5fcomments = false
+_5f5f_5f5fautogen_5f5feditor_5fon_5fown_5f5fcomments {
+  conditionset.userset__5f_5fautogen_5feditor
+  conditionset.resourceset_own_5fcomments
+  input.action in condition_set_permissions.__autogen_editor.own_comments[input.resource.type]
+}
+
