@@ -37,8 +37,10 @@ rebac_roles_result := vauthz_rebac.roles(input)
 
 
 rebac_roles := rebac_roles_result.roles
-combined_roles := array.concat(user_roles, rebac_roles)
+user_roles_array := [role | role = user_roles[_]]
+rebac_roles_array := [role | role = rebac_roles[_]]
 
+combined_roles := array.concat(user_roles_array, rebac_roles_array)
 __generated_user_attributes = {
     "roles": combined_roles,
     "tenants": user_tenants,
