@@ -38,8 +38,11 @@ rebac_roles_result := vauthz_rebac.roles(input)
 
 rebac_roles := rebac_roles_result.roles
 user_roles_array := [role | role = user_roles[_]]
-rebac_roles_array := [role | role = rebac_roles[_]]
 
+# Transform rebac_roles to follow the pattern input.resource.type#role_name
+rebac_roles_array := [sprintf("%s#%s", [input.resource.type, role]) | role = rebac_roles[_]]
+
+# Now merge the arrays
 combined_roles := array.concat(user_roles_array, rebac_roles_array)
 __generated_user_attributes = {
     "roles": combined_roles,
