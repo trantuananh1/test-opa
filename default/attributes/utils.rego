@@ -33,10 +33,15 @@ user_roles[roleKey] {
 user_tenants[tenant] {
 	some tenant in object_keys(data.users[input.user.key].role_assignments)
 }
+rebac_roles_result := vauthz_rebac.roles(input)
+
+
+rebac_roles := rebac_roles_result.roles
+combined_roles := array.concat(user_roles, rebac_roles)
 
 __generated_user_attributes = {
-	"roles": user_roles,
-	"tenants": user_tenants,
+    "roles": combined_roles,
+    "tenants": user_tenants,
 }
 
 __generated_resource_attributes = {"type": input.resource.type}
