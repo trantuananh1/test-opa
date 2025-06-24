@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default post_5f5fowner_5fon_5fposts_5f5fhas_5f5fowner = false
+post_5f5fowner_5fon_5fposts_5f5fhas_5f5fowner {
+  conditionset.userset_post_5fowner
+  conditionset.resourceset_posts_5fhas_5fowner
+  input.action in condition_set_permissions.post_owner.posts_has_owner[input.resource.type]
+}
+
