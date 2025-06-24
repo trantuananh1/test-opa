@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default _5f5f_5f5fautogen_5f5fhi_5fon_5fposts_5f5fprivate = false
+_5f5f_5f5fautogen_5f5fhi_5fon_5fposts_5f5fprivate {
+  conditionset.userset__5f_5fautogen_5fhi
+  conditionset.resourceset_posts_5fprivate
+  input.action in condition_set_permissions.__autogen_hi.posts_private[input.resource.type]
+}
+
