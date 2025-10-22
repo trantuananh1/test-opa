@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default me_5fon_5fblog_5f5fhieu = false
+me_5fon_5fblog_5f5fhieu {
+  conditionset.userset_me
+  conditionset.resourceset_blog_5fhieu
+  input.action in condition_set_permissions.me.blog_hieu[input.resource.type]
+}
+
