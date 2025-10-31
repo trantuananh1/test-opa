@@ -1,4 +1,4 @@
-package vauthz.rbac
+package vauthz_rbac
 
 import future.keywords
 
