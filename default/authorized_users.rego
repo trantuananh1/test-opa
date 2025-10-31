@@ -2,6 +2,7 @@ package vauthz.authorized_users
 
 import data.vauthz.root.debugger_activated
 import future.keywords.in
+import data.vauthz_rebac
 
 format_rbac_assignment(user, role) := {
 	"role": role,
