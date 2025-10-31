@@ -9,6 +9,16 @@ default rebac_roles := []
 
 default cache_rebuild := false
 
+linked_users(resource) := {user_id: info |
+    some rel
+    rel := data.relationships[_]
+    rel.object == resource.id
+    user_id := rel.subject
+    info := {
+        "roles": {"member": ["default_role"]}
+    }
+}
+
 cache_rebuild {
   __rebac_data = {
       "role_assignments": data.role_assignments,
