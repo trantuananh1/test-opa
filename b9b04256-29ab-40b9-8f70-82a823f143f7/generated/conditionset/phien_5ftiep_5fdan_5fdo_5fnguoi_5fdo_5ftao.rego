@@ -1,0 +1,17 @@
+package vauthz.generated.conditionset
+import future.keywords.in
+import data.vauthz.generated.abac.utils.attributes
+default resourceset_phien_5ftiep_5fdan_5fdo_5fnguoi_5fdo_5ftao = false
+resourceset_phien_5ftiep_5fdan_5fdo_5fnguoi_5fdo_5ftao {
+   resourceset_phien_5ftiep_5fdan_5fdo_5fnguoi_5fdo_5ftao_all_of
+}
+default resourceset_phien_5ftiep_5fdan_5fdo_5fnguoi_5fdo_5ftao_all_of = false
+resourceset_phien_5ftiep_5fdan_5fdo_5fnguoi_5fdo_5ftao_all_of {
+    resourceset_phien_5ftiep_5fdan_5fdo_5fnguoi_5fdo_5ftao_all_of_all_of_0
+}
+default resourceset_phien_5ftiep_5fdan_5fdo_5fnguoi_5fdo_5ftao_all_of_all_of_0 = false
+resourceset_phien_5ftiep_5fdan_5fdo_5fnguoi_5fdo_5ftao_all_of_all_of_0 {
+    attributes.resource.owner == attributes.user.key    
+
+}
+
