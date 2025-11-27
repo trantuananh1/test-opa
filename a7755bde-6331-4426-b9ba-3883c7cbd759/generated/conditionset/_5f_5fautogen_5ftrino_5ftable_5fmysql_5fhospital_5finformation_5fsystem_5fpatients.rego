@@ -1,0 +1,8 @@
+package vauthz.generated.conditionset
+import future.keywords.in
+import data.vauthz.generated.abac.utils.attributes
+default resourceset__5f_5fautogen_5ftrino_5ftable_5fmysql_5fhospital_5finformation_5fsystem_5fpatients = false
+resourceset__5f_5fautogen_5ftrino_5ftable_5fmysql_5fhospital_5finformation_5fsystem_5fpatients {
+    attributes.resource.type == "trino_table_mysql_hospital_information_system_patients"
+}
+
