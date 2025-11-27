@@ -1,0 +1,8 @@
+package vauthz.generated.conditionset
+import future.keywords.in
+import data.vauthz.generated.abac.utils.attributes
+default resourceset__5f_5fautogen_5ftrino_5ftable_5fmysql_5fconnection_5fservice_5fdb_5fdata_5fsources = false
+resourceset__5f_5fautogen_5ftrino_5ftable_5fmysql_5fconnection_5fservice_5fdb_5fdata_5fsources {
+    attributes.resource.type == "trino_table_mysql_connection_service_db_data_sources"
+}
+
