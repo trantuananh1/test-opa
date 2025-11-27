@@ -1,0 +1,8 @@
+package vauthz.generated.conditionset
+import future.keywords.in
+import data.vauthz.generated.abac.utils.attributes
+default resourceset__5f_5fautogen_5ftrino_5ftable_5fmysql_5fchat_5fmessage_5fhistory_5fragconfig = false
+resourceset__5f_5fautogen_5ftrino_5ftable_5fmysql_5fchat_5fmessage_5fhistory_5fragconfig {
+    attributes.resource.type == "trino_table_mysql_chat_message_history_ragconfig"
+}
+
