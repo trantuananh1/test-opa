@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default _5f5f_5f5fautogen_5f5fADMIN_5fon_5f_5f5f_5f5fautogen_5f5ftrino_5f5ftable_5f5fmysql_5f5fhospital_5f5finformation_5f5fsystem_5f5fadmissions = false
+_5f5f_5f5fautogen_5f5fADMIN_5fon_5f_5f5f_5f5fautogen_5f5ftrino_5f5ftable_5f5fmysql_5f5fhospital_5f5finformation_5f5fsystem_5f5fadmissions {
+  conditionset.userset__5f_5fautogen_5fADMIN
+  conditionset.resourceset__5f_5fautogen_5ftrino_5ftable_5fmysql_5fhospital_5finformation_5fsystem_5fadmissions
+  input.action in condition_set_permissions.__autogen_ADMIN.__autogen_trino_table_mysql_hospital_information_system_admissions[input.resource.type]
+}
+
