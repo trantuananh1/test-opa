@@ -8,12 +8,7 @@ userset_Test02 {
 default userset_Test02_any_of = false
 userset_Test02_any_of {
     userset_Test02_any_of_any_of_0
-    userset_Test02_any_of_all_of_0
-}
-default userset_Test02_any_of_all_of_0 = false
-userset_Test02_any_of_all_of_0 {
-    attributes.user.test01 == "4"    
-
+    userset_Test02_any_of_any_of_1
 }
 default userset_Test02_any_of_any_of_0 = false
 userset_Test02_any_of_any_of_0 {
@@ -24,5 +19,12 @@ userset_Test02_any_of_any_of_0 {
 }
 userset_Test02_any_of_any_of_0 {
     "abc" in attributes.user.email
+}
+default userset_Test02_any_of_any_of_1 = false
+userset_Test02_any_of_any_of_1 {
+    attributes.user.test01 == "4"
+}
+userset_Test02_any_of_any_of_1 {
+    "9" in attributes.user.email
 }
 
