@@ -24,7 +24,4 @@ default userset_Test02_any_of_any_of_1 = false
 userset_Test02_any_of_any_of_1 {
     attributes.user.test01 == "4"
 }
-userset_Test02_any_of_any_of_1 {
-    "9" in attributes.user.email
-}
 
