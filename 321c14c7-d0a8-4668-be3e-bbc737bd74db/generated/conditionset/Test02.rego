@@ -13,7 +13,6 @@ userset_Test02_any_of {
 default userset_Test02_any_of_all_of_0 = false
 userset_Test02_any_of_all_of_0 {
     attributes.user.test01 == "4"    
-    attributes.user.key == "2"    
 
 }
 default userset_Test02_any_of_any_of_0 = false
