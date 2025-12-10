@@ -13,6 +13,7 @@ default userset_Test02_all_of_all_of_0 = false
 userset_Test02_all_of_all_of_0 {
     attributes.user.key == "1"    
     attributes.user.roles == "3"    
+    "abc" in attributes.user.email    
 
 }
 
