@@ -9,10 +9,17 @@ default userset_kien_all_of = false
 userset_kien_all_of {
     userset_kien_all_of_any_of_0
     userset_kien_all_of_all_of_0
+    userset_kien_all_of_all_of_1
 }
 default userset_kien_all_of_all_of_0 = false
 userset_kien_all_of_all_of_0 {
     attributes.user.e == "true"    
+    attributes.user.key == "2"    
+
+}
+default userset_kien_all_of_all_of_1 = false
+userset_kien_all_of_all_of_1 {
+    attributes.user.key == "1"    
 
 }
 default userset_kien_all_of_any_of_0 = false
