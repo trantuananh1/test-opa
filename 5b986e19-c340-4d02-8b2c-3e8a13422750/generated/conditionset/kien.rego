@@ -7,16 +7,18 @@ userset_kien {
 }
 default userset_kien_any_of = false
 userset_kien_any_of {
-    userset_kien_any_of_any_of_0
     userset_kien_any_of_all_of_0
+    userset_kien_any_of_all_of_1
 }
 default userset_kien_any_of_all_of_0 = false
 userset_kien_any_of_all_of_0 {
-    attributes.user.key == "7"    
+    attributes.user.key == "12"    
+    attributes.user.key == "1"    
 
 }
-default userset_kien_any_of_any_of_0 = false
-userset_kien_any_of_any_of_0 {
-    attributes.user.key == "12"
+default userset_kien_any_of_all_of_1 = false
+userset_kien_any_of_all_of_1 {
+    attributes.user.key == "7"    
+
 }
 
