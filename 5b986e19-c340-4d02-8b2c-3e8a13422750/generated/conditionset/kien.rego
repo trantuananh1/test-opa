@@ -9,25 +9,17 @@ default userset_kien_any_of = false
 userset_kien_any_of {
     userset_kien_any_of_all_of_0
     userset_kien_any_of_all_of_1
-    userset_kien_any_of_all_of_2
 }
 default userset_kien_any_of_all_of_0 = false
 userset_kien_any_of_all_of_0 {
     attributes.user.key == "12"    
     attributes.user.key == "1"    
-    attributes.user.key == "2"    
 
 }
 default userset_kien_any_of_all_of_1 = false
 userset_kien_any_of_all_of_1 {
     attributes.user.key == "3"    
     attributes.user.key == "4"    
-
-}
-default userset_kien_any_of_all_of_2 = false
-userset_kien_any_of_all_of_2 {
-    attributes.user.key == "5"    
-    attributes.user.key == "6"    
 
 }
 
