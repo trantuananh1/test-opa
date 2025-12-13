@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default 2_5fon_5fwe = false
+2_5fon_5fwe {
+  conditionset.userset_2
+  conditionset.resourceset_we
+  input.action in condition_set_permissions.2.we[input.resource.type]
+}
+
