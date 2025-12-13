@@ -13,4 +13,7 @@ default userset_123_any_of_any_of_0 = false
 userset_123_any_of_any_of_0 {
     attributes.sdfsdf == "1"
 }
+userset_123_any_of_any_of_0 {
+    "12" in attributes.1
+}
 
