@@ -11,7 +11,7 @@ userset_2_all_of {
 }
 default userset_2_all_of_all_of_0 = false
 userset_2_all_of_all_of_0 {
-    "12" in attributes.user.key    
+    attributes.12 in attributes.user.key    
 
 }
 
