@@ -1,0 +1,17 @@
+package vauthz.generated.conditionset
+import future.keywords.in
+import data.vauthz.generated.abac.utils.attributes
+default resourceset_nguoi_5ftao_5fthiet_5fbi_5ftuyen_5ftruyen = false
+resourceset_nguoi_5ftao_5fthiet_5fbi_5ftuyen_5ftruyen {
+   resourceset_nguoi_5ftao_5fthiet_5fbi_5ftuyen_5ftruyen_all_of
+}
+default resourceset_nguoi_5ftao_5fthiet_5fbi_5ftuyen_5ftruyen_all_of = false
+resourceset_nguoi_5ftao_5fthiet_5fbi_5ftuyen_5ftruyen_all_of {
+    resourceset_nguoi_5ftao_5fthiet_5fbi_5ftuyen_5ftruyen_all_of_all_of_0
+}
+default resourceset_nguoi_5ftao_5fthiet_5fbi_5ftuyen_5ftruyen_all_of_all_of_0 = false
+resourceset_nguoi_5ftao_5fthiet_5fbi_5ftuyen_5ftruyen_all_of_all_of_0 {
+    attributes.resource.nguoiTao == attributes.user.key    
+
+}
+
