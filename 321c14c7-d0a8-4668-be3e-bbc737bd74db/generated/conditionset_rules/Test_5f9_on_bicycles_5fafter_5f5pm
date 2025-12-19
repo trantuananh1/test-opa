@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default Test_5f5f9_5fon_5fbicycles_5f5fafter_5f5f5pm = false
+Test_5f5f9_5fon_5fbicycles_5f5fafter_5f5f5pm {
+  conditionset.userset_Test_5f9
+  conditionset.resourceset_bicycles_5fafter_5f5pm
+  input.action in condition_set_permissions.Test_9.bicycles_after_5pm[input.resource.type]
+}
+
