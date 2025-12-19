@@ -11,7 +11,7 @@ resourceset_nguoi_5ftao_5fto_5fcong_5ftac_all_of {
 }
 default resourceset_nguoi_5ftao_5fto_5fcong_5ftac_all_of_all_of_0 = false
 resourceset_nguoi_5ftao_5fto_5fcong_5ftac_all_of_all_of_0 {
-    attributes.resource.nguoi_tao == attributes.user.key    
+    attributes.resource.created_by == attributes.user.key    
 
 }
 
