@@ -13,11 +13,11 @@ userset_M0_5f5_all_of {
 }
 default userset_M0_5f5_all_of_any_of_0 = false
 userset_M0_5f5_all_of_any_of_0 {
-    attributes.Thuoc_tinh_02 == attributes.Thuoc_tinh_03
+    attributes.Thuoc_tinh_01 != "Không bằng thuộc tính 2"
 }
 default userset_M0_5f5_all_of_any_of_1 = false
 userset_M0_5f5_all_of_any_of_1 {
-    attributes.Thuoc_tinh_02 != "AAAA"
+    attributes.Thuoc_tinh_02 == "thuộc tính 3"
 }
 default userset_M0_5f5_all_of_any_of_2 = false
 userset_M0_5f5_all_of_any_of_2 {
