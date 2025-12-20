@@ -12,7 +12,6 @@ userset_M0_5f3_any_of {
 default userset_M0_5f3_any_of_all_of_0 = false
 userset_M0_5f3_any_of_all_of_0 {
     attributes.Thuoc_tinh_02 == attributes.Thuoc_tinh_02    
-    attributes.Thuoc_tinh_03 != attributes.Thuoc_tinh_04    
     attributes.Thuoc_tinh_02 != "AAA"    
 
 }
