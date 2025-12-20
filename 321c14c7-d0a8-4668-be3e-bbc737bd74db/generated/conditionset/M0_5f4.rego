@@ -1,0 +1,25 @@
+package vauthz.generated.conditionset
+import future.keywords.in
+import data.vauthz.generated.abac.utils.attributes
+default userset_M0_5f4 = false
+userset_M0_5f4 {
+   userset_M0_5f4_any_of
+}
+default userset_M0_5f4_any_of = false
+userset_M0_5f4_any_of {
+    userset_M0_5f4_any_of_any_of_0
+}
+default userset_M0_5f4_any_of_any_of_0 = false
+userset_M0_5f4_any_of_any_of_0 {
+    attributes.Thuoc_tinh_02 == attributes.Thuoc_tinh_03
+}
+userset_M0_5f4_any_of_any_of_0 {
+    attributes.Thuoc_tinh_04 in attributes.Thuoc_tinh_04
+}
+userset_M0_5f4_any_of_any_of_0 {
+    attributes.Thuoc_tinh_04 != "giá trị"
+}
+userset_M0_5f4_any_of_any_of_0 {
+    attributes.Thuoc_tinh_03 == attributes.Thuoc_tinh_03
+}
+
