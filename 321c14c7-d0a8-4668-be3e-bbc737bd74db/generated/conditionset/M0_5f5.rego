@@ -21,6 +21,6 @@ userset_M0_5f5_all_of_any_of_1 {
 }
 default userset_M0_5f5_all_of_any_of_2 = false
 userset_M0_5f5_all_of_any_of_2 {
-    "AAAAA" in attributes.Thuoc_tinh_02
+    "giá trị, thuộc tính" in attributes.Thuoc_tinh_02
 }
 
