@@ -10,6 +10,7 @@ userset_M0_5f5_all_of {
     userset_M0_5f5_all_of_any_of_0
     userset_M0_5f5_all_of_any_of_1
     userset_M0_5f5_all_of_any_of_2
+    userset_M0_5f5_all_of_any_of_3
 }
 default userset_M0_5f5_all_of_any_of_0 = false
 userset_M0_5f5_all_of_any_of_0 {
@@ -22,5 +23,9 @@ userset_M0_5f5_all_of_any_of_1 {
 default userset_M0_5f5_all_of_any_of_2 = false
 userset_M0_5f5_all_of_any_of_2 {
     "giá trị, thuộc tính" in attributes.Thuoc_tinh_02
+}
+default userset_M0_5f5_all_of_any_of_3 = false
+userset_M0_5f5_all_of_any_of_3 {
+    attributes.Thuoc_tinh_01 in attributes.Thuoc_tinh_02
 }
 
