@@ -11,9 +11,9 @@ resourceset_TN_5f03_any_of {
 }
 default resourceset_TN_5f03_any_of_any_of_0 = false
 resourceset_TN_5f03_any_of_any_of_0 {
-    attributes.ATB2 != "123"
+    attributes.ATB2 == attributes.ATB3
 }
 resourceset_TN_5f03_any_of_any_of_0 {
-    "11222" in attributes.ATB2
+    attributes.ATB1 != "123"
 }
 
