@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default _5f5f_5f5fautogen_5f5fNhan_5f5fvien_5fon_5f_5f5f_5f5fautogen_5f5fDia_5f5fban_5f5fton_5f5fgiao = false
+_5f5f_5f5fautogen_5f5fNhan_5f5fvien_5fon_5f_5f5f_5f5fautogen_5f5fDia_5f5fban_5f5fton_5f5fgiao {
+  conditionset.userset__5f_5fautogen_5fNhan_5fvien
+  conditionset.resourceset__5f_5fautogen_5fDia_5fban_5fton_5fgiao
+  input.action in condition_set_permissions.__autogen_Nhan_vien.__autogen_Dia_ban_ton_giao[input.resource.type]
+}
+
