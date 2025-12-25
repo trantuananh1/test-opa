@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default _5f5f_5f5fautogen_5f5f&#x3C;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3 E;&#x20;&#x61;&#x6C;&#x65;&#x72;&#x74;&#x28;&# x22;&#x74;&#x65;&#x73;&#x74;&#x22;&#x29;&#x20; &#x3C;&#x2F;&#x73;&#x63;&#x72;&#x69;&#x70;&#x7 4;&#x3E;_5fon_5f_5f5f_5f5fautogen_5f5fnull = false
+_5f5f_5f5fautogen_5f5f&#x3C;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3 E;&#x20;&#x61;&#x6C;&#x65;&#x72;&#x74;&#x28;&# x22;&#x74;&#x65;&#x73;&#x74;&#x22;&#x29;&#x20; &#x3C;&#x2F;&#x73;&#x63;&#x72;&#x69;&#x70;&#x7 4;&#x3E;_5fon_5f_5f5f_5f5fautogen_5f5fnull {
+  conditionset.userset__5f_5fautogen_5f&#x3C;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3 E;&#x20;&#x61;&#x6C;&#x65;&#x72;&#x74;&#x28;&# x22;&#x74;&#x65;&#x73;&#x74;&#x22;&#x29;&#x20; &#x3C;&#x2F;&#x73;&#x63;&#x72;&#x69;&#x70;&#x7 4;&#x3E;
+  conditionset.resourceset__5f_5fautogen_5fnull
+  input.action in condition_set_permissions.__autogen_&#x3C;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3 E;&#x20;&#x61;&#x6C;&#x65;&#x72;&#x74;&#x28;&# x22;&#x74;&#x65;&#x73;&#x74;&#x22;&#x29;&#x20; &#x3C;&#x2F;&#x73;&#x63;&#x72;&#x69;&#x70;&#x7 4;&#x3E;.__autogen_null[input.resource.type]
+}
+
