@@ -7,5 +7,11 @@ userset_user_5fwith_5frank_5fequal_5f5 {
 }
 default userset_user_5fwith_5frank_5fequal_5f5_all_of = false
 userset_user_5fwith_5frank_5fequal_5f5_all_of {
+    userset_user_5fwith_5frank_5fequal_5f5_all_of_all_of_0
+}
+default userset_user_5fwith_5frank_5fequal_5f5_all_of_all_of_0 = false
+userset_user_5fwith_5frank_5fequal_5f5_all_of_all_of_0 {
+    attributes.rank == "12"    
+
 }
 
