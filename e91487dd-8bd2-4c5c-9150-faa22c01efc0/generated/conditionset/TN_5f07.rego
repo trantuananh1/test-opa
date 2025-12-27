@@ -11,6 +11,6 @@ resourceset_TN_5f07_any_of {
 }
 default resourceset_TN_5f07_any_of_any_of_0 = false
 resourceset_TN_5f07_any_of_any_of_0 {
-    attributes.ATB3 == attributes.ATB3
+    attributes.ATB3 == attributes.002
 }
 
