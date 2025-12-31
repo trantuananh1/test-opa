@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default ND_5f5f06_5fon_5f_5f5f_5f5fautogen_5f5fDuong01Test = false
+ND_5f5f06_5fon_5f_5f5f_5f5fautogen_5f5fDuong01Test {
+  conditionset.userset_ND_5f06
+  conditionset.resourceset__5f_5fautogen_5fDuong01Test
+  input.action in condition_set_permissions.ND_06.__autogen_Duong01Test[input.resource.type]
+}
+
