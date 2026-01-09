@@ -1,0 +1,8 @@
+package vauthz.generated.conditionset
+import future.keywords.in
+import data.vauthz.generated.abac.utils.attributes
+default resourceset__5f_5fautogen_5fhttpsdrivegooglecomfiled1ThIXTzdYzVk3CJbE0ndriysQw0SfZNp_2dviewuspsharing = false
+resourceset__5f_5fautogen_5fhttpsdrivegooglecomfiled1ThIXTzdYzVk3CJbE0ndriysQw0SfZNp_2dviewuspsharing {
+    attributes.resource.type == "httpsdrivegooglecomfiled1ThIXTzdYzVk3CJbE0ndriysQw0SfZNp-viewuspsharing"
+}
+

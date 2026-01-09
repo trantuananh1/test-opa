@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default _5f5f_5f5fautogen_5f5f%3C%73%63%72%69%70%74%3E%3C%73%63%72%6 9%70%74%3E%61%6C%65%72%74%28%22%74%65% 73%74%22%29%3C%2F%73%63%72%69%70%74%3E %3C%2F%73%63%72%69%70%74%3E_5fon_5f_5f5f_5f5fautogen_5f5fDuongtao0901_5f2d06 = false
+_5f5f_5f5fautogen_5f5f%3C%73%63%72%69%70%74%3E%3C%73%63%72%6 9%70%74%3E%61%6C%65%72%74%28%22%74%65% 73%74%22%29%3C%2F%73%63%72%69%70%74%3E %3C%2F%73%63%72%69%70%74%3E_5fon_5f_5f5f_5f5fautogen_5f5fDuongtao0901_5f2d06 {
+  conditionset.userset__5f_5fautogen_5f%3C%73%63%72%69%70%74%3E%3C%73%63%72%6 9%70%74%3E%61%6C%65%72%74%28%22%74%65% 73%74%22%29%3C%2F%73%63%72%69%70%74%3E %3C%2F%73%63%72%69%70%74%3E
+  conditionset.resourceset__5f_5fautogen_5fDuongtao0901_2d06
+  input.action in condition_set_permissions.__autogen_%3C%73%63%72%69%70%74%3E%3C%73%63%72%6 9%70%74%3E%61%6C%65%72%74%28%22%74%65% 73%74%22%29%3C%2F%73%63%72%69%70%74%3E %3C%2F%73%63%72%69%70%74%3E.__autogen_Duongtao0901-06[input.resource.type]
+}
+
