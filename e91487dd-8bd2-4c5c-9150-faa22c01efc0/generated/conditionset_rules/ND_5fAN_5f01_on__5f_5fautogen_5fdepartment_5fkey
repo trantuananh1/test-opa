@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default ND_5f5fAN_5f5f01_5fon_5f_5f5f_5f5fautogen_5f5fdepartment_5f5fkey = false
+ND_5f5fAN_5f5f01_5fon_5f_5f5f_5f5fautogen_5f5fdepartment_5f5fkey {
+  conditionset.userset_ND_5fAN_5f01
+  conditionset.resourceset__5f_5fautogen_5fdepartment_5fkey
+  input.action in condition_set_permissions.ND_AN_01.__autogen_department_key[input.resource.type]
+}
+
