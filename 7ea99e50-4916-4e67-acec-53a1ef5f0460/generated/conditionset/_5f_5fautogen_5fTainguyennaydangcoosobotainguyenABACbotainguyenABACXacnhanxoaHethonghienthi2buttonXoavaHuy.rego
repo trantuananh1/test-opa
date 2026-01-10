@@ -1,0 +1,8 @@
+package vauthz.generated.conditionset
+import future.keywords.in
+import data.vauthz.generated.abac.utils.attributes
+default resourceset__5f_5fautogen_5fTainguyennaydangcoosobotainguyenABACbotainguyenABACXacnhanxoaHethonghienthi2buttonXoavaHuy = false
+resourceset__5f_5fautogen_5fTainguyennaydangcoosobotainguyenABACbotainguyenABACXacnhanxoaHethonghienthi2buttonXoavaHuy {
+    attributes.resource.type == "TainguyennaydangcoosobotainguyenABACbotainguyenABACXacnhanxoaHethonghienthi2buttonXoavaHuy"
+}
+
