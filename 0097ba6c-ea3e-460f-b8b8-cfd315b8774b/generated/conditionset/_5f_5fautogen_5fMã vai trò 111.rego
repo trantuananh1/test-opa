@@ -1,0 +1,8 @@
+package vauthz.generated.conditionset
+import future.keywords.in
+import data.vauthz.generated.abac.utils.attributes
+default userset__5f_5fautogen_5fMã vai trò 111 = false
+userset__5f_5fautogen_5fMã vai trò 111 {
+    "Mã vai trò 111" in attributes.user.roles
+}
+
