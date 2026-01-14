@@ -8,12 +8,6 @@ userset_Ba_5fnghiem_5fthu {
 default userset_Ba_5fnghiem_5fthu_any_of = false
 userset_Ba_5fnghiem_5fthu_any_of {
     userset_Ba_5fnghiem_5fthu_any_of_any_of_0
-    userset_Ba_5fnghiem_5fthu_any_of_all_of_0
-}
-default userset_Ba_5fnghiem_5fthu_any_of_all_of_0 = false
-userset_Ba_5fnghiem_5fthu_any_of_all_of_0 {
-    "4" in attributes.007    
-
 }
 default userset_Ba_5fnghiem_5fthu_any_of_any_of_0 = false
 userset_Ba_5fnghiem_5fthu_any_of_any_of_0 {
