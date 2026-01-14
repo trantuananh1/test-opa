@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default Lanhdaodangvien_5fon_5fphientiepdancuaminh = false
+Lanhdaodangvien_5fon_5fphientiepdancuaminh {
+  conditionset.userset_Lanhdaodangvien
+  conditionset.resourceset_phientiepdancuaminh
+  input.action in condition_set_permissions.Lanhdaodangvien.phientiepdancuaminh[input.resource.type]
+}
+
