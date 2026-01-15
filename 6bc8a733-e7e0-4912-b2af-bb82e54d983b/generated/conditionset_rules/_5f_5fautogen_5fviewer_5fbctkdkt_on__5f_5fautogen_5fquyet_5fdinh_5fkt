@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default _5f5f_5f5fautogen_5f5fviewer_5f5fbctkdkt_5fon_5f_5f5f_5f5fautogen_5f5fquyet_5f5fdinh_5f5fkt = false
+_5f5f_5f5fautogen_5f5fviewer_5f5fbctkdkt_5fon_5f_5f5f_5f5fautogen_5f5fquyet_5f5fdinh_5f5fkt {
+  conditionset.userset__5f_5fautogen_5fviewer_5fbctkdkt
+  conditionset.resourceset__5f_5fautogen_5fquyet_5fdinh_5fkt
+  input.action in condition_set_permissions.__autogen_viewer_bctkdkt.__autogen_quyet_dinh_kt[input.resource.type]
+}
+
