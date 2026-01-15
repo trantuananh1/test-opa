@@ -7,5 +7,12 @@ resourceset_ABAC {
 }
 default resourceset_ABAC_all_of = false
 resourceset_ABAC_all_of {
+    resourceset_ABAC_all_of_all_of_0
+}
+default resourceset_ABAC_all_of_all_of_0 = false
+resourceset_ABAC_all_of_all_of_0 {
+    attributes.thoigian == attributes.time    
+    "1" in attributes.thoigian    
+
 }
 
