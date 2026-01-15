@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default TN_5f5f05_5fon_5fND_5f5f092 = false
+TN_5f5f05_5fon_5fND_5f5f092 {
+  conditionset.userset_TN_5f05
+  conditionset.resourceset_ND_5f092
+  input.action in condition_set_permissions.TN_05.ND_092[input.resource.type]
+}
+
