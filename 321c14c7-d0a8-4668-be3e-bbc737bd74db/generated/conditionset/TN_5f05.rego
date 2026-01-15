@@ -11,7 +11,7 @@ userset_TN_5f05_all_of {
 }
 default userset_TN_5f05_all_of_all_of_0 = false
 userset_TN_5f05_all_of_all_of_0 {
-    attributes.user.key == "1"    
+    attributes.test01 == "1"    
 
 }
 
