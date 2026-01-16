@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default _5f5f_5f5fautogen_5f5frole2_5fon_5fBTN = false
+_5f5f_5f5fautogen_5f5frole2_5fon_5fBTN {
+  conditionset.userset__5f_5fautogen_5frole2
+  conditionset.resourceset_BTN
+  input.action in condition_set_permissions.__autogen_role2.BTN[input.resource.type]
+}
+
