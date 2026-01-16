@@ -7,11 +7,5 @@ userset_ND_5f01 {
 }
 default userset_ND_5f01_all_of = false
 userset_ND_5f01_all_of {
-    userset_ND_5f01_all_of_all_of_0
-}
-default userset_ND_5f01_all_of_all_of_0 = false
-userset_ND_5f01_all_of_all_of_0 {
-    attributes.002 == attributes.002    
-
 }
 
