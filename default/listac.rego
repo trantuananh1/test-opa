@@ -77,5 +77,5 @@ default activated := false
 
 # LISTAC: Activate when action has "list:" prefix (instead of checking relationships)
 activated if {
-    startswith(input.action, "list:")
+    startswith(input.action, "list__")
 }
