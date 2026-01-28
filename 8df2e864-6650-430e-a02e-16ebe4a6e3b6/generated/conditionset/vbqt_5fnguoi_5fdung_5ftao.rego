@@ -7,11 +7,13 @@ resourceset_vbqt_5fnguoi_5fdung_5ftao {
 }
 default resourceset_vbqt_5fnguoi_5fdung_5ftao_all_of = false
 resourceset_vbqt_5fnguoi_5fdung_5ftao_all_of {
-    resourceset_vbqt_5fnguoi_5fdung_5ftao_all_of_all_of_0
+    resourceset_vbqt_5fnguoi_5fdung_5ftao_all_of_any_of_0
 }
-default resourceset_vbqt_5fnguoi_5fdung_5ftao_all_of_all_of_0 = false
-resourceset_vbqt_5fnguoi_5fdung_5ftao_all_of_all_of_0 {
-    attributes.nguoi_tao == "giangnx2_"    
-
+default resourceset_vbqt_5fnguoi_5fdung_5ftao_all_of_any_of_0 = false
+resourceset_vbqt_5fnguoi_5fdung_5ftao_all_of_any_of_0 {
+    attributes.nguoi_tao == "giangnx2_"
+}
+resourceset_vbqt_5fnguoi_5fdung_5ftao_all_of_any_of_0 {
+    attributes.nguoi_tao == "giangnx1_"
 }
 
