@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default dup_5fon_5fdup01 = false
+dup_5fon_5fdup01 {
+  conditionset.userset_dup
+  conditionset.resourceset_dup01
+  input.action in condition_set_permissions.dup.dup01[input.resource.type]
+}
+
