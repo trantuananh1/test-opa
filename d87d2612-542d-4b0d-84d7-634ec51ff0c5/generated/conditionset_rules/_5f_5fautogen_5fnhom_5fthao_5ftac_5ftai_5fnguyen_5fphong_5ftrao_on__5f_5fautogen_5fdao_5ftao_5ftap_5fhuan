@@ -1,0 +1,14 @@
+package vauthz.generated.conditionset.rules
+
+import future.keywords.in
+
+import data.vauthz.generated.abac.utils.attributes
+import data.vauthz.generated.abac.utils.condition_set_permissions
+import data.vauthz.generated.conditionset
+default _5f5f_5f5fautogen_5f5fnhom_5f5fthao_5f5ftac_5f5ftai_5f5fnguyen_5f5fphong_5f5ftrao_5fon_5f_5f5f_5f5fautogen_5f5fdao_5f5ftao_5f5ftap_5f5fhuan = false
+_5f5f_5f5fautogen_5f5fnhom_5f5fthao_5f5ftac_5f5ftai_5f5fnguyen_5f5fphong_5f5ftrao_5fon_5f_5f5f_5f5fautogen_5f5fdao_5f5ftao_5f5ftap_5f5fhuan {
+  conditionset.userset__5f_5fautogen_5fnhom_5fthao_5ftac_5ftai_5fnguyen_5fphong_5ftrao
+  conditionset.resourceset__5f_5fautogen_5fdao_5ftao_5ftap_5fhuan
+  input.action in condition_set_permissions.__autogen_nhom_thao_tac_tai_nguyen_phong_trao.__autogen_dao_tao_tap_huan[input.resource.type]
+}
+
