@@ -1,0 +1,17 @@
+package vauthz.generated.conditionset
+import future.keywords.in
+import data.vauthz.generated.abac.utils.attributes
+default resourceset_xep_5floai_5fchat_5fluong_5fdoan_5fvien = false
+resourceset_xep_5floai_5fchat_5fluong_5fdoan_5fvien {
+   resourceset_xep_5floai_5fchat_5fluong_5fdoan_5fvien_all_of
+}
+default resourceset_xep_5floai_5fchat_5fluong_5fdoan_5fvien_all_of = false
+resourceset_xep_5floai_5fchat_5fluong_5fdoan_5fvien_all_of {
+    resourceset_xep_5floai_5fchat_5fluong_5fdoan_5fvien_all_of_all_of_0
+}
+default resourceset_xep_5floai_5fchat_5fluong_5fdoan_5fvien_all_of_all_of_0 = false
+resourceset_xep_5floai_5fchat_5fluong_5fdoan_5fvien_all_of_all_of_0 {
+    attributes.resource.created_by == attributes.user.key    
+
+}
+
