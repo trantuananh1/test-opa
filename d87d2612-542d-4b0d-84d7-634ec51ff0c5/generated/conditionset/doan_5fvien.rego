@@ -11,7 +11,7 @@ resourceset_doan_5fvien_all_of {
 }
 default resourceset_doan_5fvien_all_of_all_of_0 = false
 resourceset_doan_5fvien_all_of_all_of_0 {
-    attributes.resource.created_by == "user.key"    
+    attributes.resource.createdBy == attributes.user.key    
 
 }
 
