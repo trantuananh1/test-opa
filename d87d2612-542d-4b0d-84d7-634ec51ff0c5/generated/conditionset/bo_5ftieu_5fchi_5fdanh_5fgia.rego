@@ -11,7 +11,7 @@ resourceset_bo_5ftieu_5fchi_5fdanh_5fgia_all_of {
 }
 default resourceset_bo_5ftieu_5fchi_5fdanh_5fgia_all_of_all_of_0 = false
 resourceset_bo_5ftieu_5fchi_5fdanh_5fgia_all_of_all_of_0 {
-    attributes.resource.created_by == attributes.user.key    
+    attributes.resource.createdBy == attributes.user.key    
 
 }
 
