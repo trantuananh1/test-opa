@@ -11,7 +11,7 @@ resourceset_tuyen_5ftruyen_5fgiao_5fduc_all_of {
 }
 default resourceset_tuyen_5ftruyen_5fgiao_5fduc_all_of_all_of_0 = false
 resourceset_tuyen_5ftruyen_5fgiao_5fduc_all_of_all_of_0 {
-    attributes.resource.created_by == attributes.user.key    
+    attributes.resource.createdBy == attributes.user.key    
 
 }
 
